@@ -17,7 +17,7 @@ Install by cloning the skill repository into the skills directory, in a folder n
 
 ## Making changes
 
-Move to the default branch and sync first, then make the change on a branch and open a pull request with the `gh` CLI.
+Move to the default branch and sync first, then make the change on a branch and open a pull request with the `gh` CLI. Send the user the pull request link and let them review it — do not merge.
 
 ## What qualifies as a skill?
 
