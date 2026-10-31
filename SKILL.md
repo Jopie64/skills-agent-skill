@@ -1,6 +1,6 @@
 ---
 name: skills
-description: How to install, update, create and modify agent skills, and what belongs in a skill. Load when the user wants to install, change, write or ask about skills.
+description: How to install, update, create and modify agent skills, and what belongs in a skill. Read before editing any skill — its rules cannot be guessed (a PR workflow, for example). Load when the user wants to install, change, write or ask about skills.
 ---
 
 # Skills
