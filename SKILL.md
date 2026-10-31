@@ -30,6 +30,7 @@ Move to the default branch and sync first, then make the change on a branch and 
 - Things a model already knows
 - Content based on what the model assumes to be true — base it on actual observed context
 - Concrete real-world examples (specific GUIDs, emails, URLs, IDs) — state the rule itself, not a sample value
+- A note that a problem used to exist or is now solved ("X no longer happens"), unless it changes what to do — skills are read cold, so keep the remedy and drop the status update.
 - Version, dates or maintainer footers in `SKILL.md` — git history is the audit log, and the footer only costs context on every load
 - CLI command examples (PowerShell, Bourne shell, etc.) — LLMs know these, so keep the skill shell- and platform-agnostic. Only include an example when it is really needed, which is rarely; otherwise describe the intent and state only what the model doesn't know, e.g. that `gh repo list` has no `--hostname` flag and needs the `GH_HOST` environment variable instead.
 
