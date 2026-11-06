@@ -17,7 +17,7 @@ Install by cloning the skill repository into the skills directory, in a folder n
 
 ## Making changes
 
-Move to the default branch and sync first, then make the change on a branch and open a pull request with the `gh` CLI. Send the user the pull request link and let them review it.
+Move to the default branch and sync first, then make the change on a branch and open a pull request with the `gh` CLI. Pass the description from a file (`--body-file`), not inline: backticks inside a double-quoted string are interpreted by the shell (escape characters in PowerShell, command substitution in bash). Send the user the pull request link and let them review it.
 
 ## What qualifies as a skill?
 
